@@ -30,11 +30,11 @@ public class Gate extends BaseEntity{
         this.operator = operator;
     }
 
-    public GateStatus getGateStatus() {
+    public GateStatus getStatus() {
         return gateStatus;
     }
 
-    public void setGateStatus(GateStatus gateStatus) {
+    public void setStatus(GateStatus gateStatus) {
         this.gateStatus = gateStatus;
     }
 }
